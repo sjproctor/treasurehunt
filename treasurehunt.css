@@ -40,6 +40,7 @@ h1 {
 #rules-section{
   color: #cce0ff;
   font-size: 18px;
+  text-shadow: 2px 2px #000;
 }
 
 #gameboard{
