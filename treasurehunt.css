@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url(https://cdn.pixabay.com/photo/2017/06/26/15/38/deserted-island-2444088_960_720.png);
+    background-image: url("island.png");
     background-position: center;
     background-size: cover;
 }
