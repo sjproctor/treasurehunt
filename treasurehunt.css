@@ -13,6 +13,7 @@ h1 {
     font-weight: bold;
     padding: 10px;
     color: #cce0ff;
+    text-shadow: 2px 2px #000;
     animation: bounceIn 4s infinite;
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
