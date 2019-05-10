@@ -1,14 +1,14 @@
 //create a random number for the treasure and the bomb
-var treasureLocation = Math.floor(Math.random()*9)
-var bombLocation = Math.floor(Math.random()*9)
+var treasureLocation = Math.floor(Math.random()*16)
+var bombLocation = Math.floor(Math.random()*16)
 
 //make sure the bomb and the treasure aren't the same number
 if(treasureLocation === bombLocation){
-  bombLocation = Math.floor(Math.random() * 9)
+  bombLocation = Math.floor(Math.random() * 16)
 }
 
 //set the initial counter value
-var counter = 9
+var counter = 10
 
 function treasure(location){
   //changing the counter after each click
